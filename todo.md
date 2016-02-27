@@ -1,3 +1,7 @@
+- written in go
+- gtk3
+- cool
+
 - [ ] compiles to a program
 - [ ] runs as a daemon
 - [ ] handles hotkeys
