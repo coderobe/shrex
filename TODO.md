@@ -4,7 +4,7 @@
 
 ---
 
-- [ ] compiles to a program
+- [x] compiles to a program
 - [ ] runs as a daemon
 - [ ] handles hotkeys
 - [ ] screenshots w/ hotkeys
