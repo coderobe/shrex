@@ -11,6 +11,7 @@ features:
 - tries really hard to not destroy your computer
 - feeds your cat
 
-todo
+todo.md: [TODO]
 
-https://github.com/shex-project/shex/wiki/todo
+
+[TODO]: TODO.md
