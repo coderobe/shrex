@@ -2,3 +2,8 @@
 - [ ] runs as a daemon
 - [ ] handles hotkeys
 - [ ] screenshots w/ hotkeys
+- [ ] creates and saves config
+- [ ] uploads to places
+- [ ] uploads to custom places
+- [ ] notifications
+- [ ] tray icon
