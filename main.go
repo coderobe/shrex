@@ -5,5 +5,5 @@ import (
 )
 
 func main () {
-  fmt.Println("this is shex");
+  fmt.Println("this is shex")
 }
