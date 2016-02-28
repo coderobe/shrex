@@ -1,7 +1,13 @@
 shex
 ===
 
-linux screenshares
+linux screenshots and screencasts
+
+(also uploads them)
+
+build: **passing** (we're cool like that)
+
+---
 
 features:
 
