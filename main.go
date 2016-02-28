@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+
 	"github.com/getlantern/systray"
 	"github.com/shex-project/shex/icon"
 )
