@@ -1,4 +1,5 @@
 - written in go
+- **so** not using gofmt
 - gtk3
 - cool
 
