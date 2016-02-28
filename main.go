@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/getlantern/systray"
 	"github.com/shex-project/shex/icon"
 )
@@ -41,6 +42,6 @@ func onReady() {
 	go func() {
 		<-mQuit.ClickedCh
 		systray.Quit()
-		fmt.Println("Exiting") // TODO: make cooler???
+		fmt.Println("EXITS WITH SOME SICK KICKFLIPS BRAH")
 	}()
 }
