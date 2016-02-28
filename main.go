@@ -42,7 +42,7 @@ func onReady() {
 	go func() {
 		<-mQuit.ClickedCh
 		systray.Quit()
-		fmt.Println("Exiting") // TODO: make cooler???
 		os.Exit(0)
+		fmt.Println("EXITS WITH SOME SICK KICKFLIPS BRAH")
 	}()
 }
