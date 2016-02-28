@@ -14,4 +14,4 @@
 - [ ] uploads to places
 - [ ] uploads to custom places
 - [ ] notifications
-- [ ] tray icon
+- [x] tray icon
