@@ -17,9 +17,9 @@ func onReady() {
 	systray.SetTitle("shex")
 	systray.SetTooltip("this is the shex systray. woo")
 	// menu items
-	mScreenshotDesktop := systray.addMenuItem("Screenshot entire desktop", "")
-	mSettings := systray.addMenuItem("Settings", "Change some stuff")
-	mQuit := systray.addMenuItem("Quit", "Exit this crap")
+	mScreenshotDesktop := systray.AddMenuItem("Screenshot entire desktop", "")
+	mSettings := systray.AddMenuItem("Settings", "Change some stuff")
+	mQuit := systray.AddMenuItem("Quit", "Exit this crap")
 
 	// do we need different goroutines for each menu item?
 
@@ -30,7 +30,7 @@ func onReady() {
 	}()
 
 	go func() {
-		<-mSettings
+		<-mSettings.ClickedCh
 		// TODO: open settings dialog
 		//   - can change keybinds
 		//   - can change upload server
