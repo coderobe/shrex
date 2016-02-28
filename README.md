@@ -1,4 +1,4 @@
-shex
+shrex
 ===
 
 linux screenshots and screencasts
